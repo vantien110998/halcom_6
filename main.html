@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="A demonstration of what can be accomplished visually through CSS-based design."
+    />
+    <meta name="robots" content="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Ess Monitor</title>
+    <link rel="stylesheet" href="css/main.css">
+    </head>
+<body>
+  <div class="header">
+    <div class="header-title">
+      ESS MONITORING SYSTEM
+    </div>
+    <button class="header-button" onclick="Logout()">Logout</button>
+  </div>
+  
+  <!-- Container du lieu -->
+   <div class="data">
+
+    <!-- Container PCS -->
+    <div class="data-pcs">
+      <div class="data-header">PCS</div>
+
+      <div class="active-power">
+        <div class="title">PCS Active Power (kW)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pva">
+        <div class="title">Phase Voltage A (V)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pvb">
+        <div class="title">Phase Voltage B (V)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pvc">
+        <div class="title">Phase Voltage C (V)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pca">
+        <div class="title">Phase Current A (A)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pcb">
+        <div class="title">Phase Current B (A)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pcc">
+        <div class="title">Phase Current C (A)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="reactive-power">
+        <div class="title">Reactive Power (kVar)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="power-factor">
+        <div class="title">Power Factor</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="frequency">
+        <div class="title">Frequency (Hz)</div>
+        <div class="output">123</div>
+      </div>    
+     
+      <div class="dcv">
+        <div class="title">DC Voltage (V)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="dcc">
+        <div class="title">DC Current (A)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="dcp">
+        <div class="title">DC Power (kVar)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="temp">
+        <div class="title">Internal Temperature (℃)</div>
+        <div class="output">123</div>
+      </div>
+
+    </div>
+
+    <!-- Container Load -->
+    <div class="data-load">
+      <div class="data-header">LOAD</div>
+
+      <div class="active-power">
+        <div class="title">Load Active Power (kW)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pva">
+        <div class="title">Phase Voltage A (V)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pvb">
+        <div class="title">Phase Voltage B (V)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pvc">
+        <div class="title">Phase Voltage C (V)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pca">
+        <div class="title">Phase Current A (A)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pcb">
+        <div class="title">Phase Current B (A)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="pcc">
+        <div class="title">Phase Current C (A)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="reactive-power">
+        <div class="title">Reactive Power (kVar)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="power-factor">
+        <div class="title">Power Factor</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="frequency">
+        <div class="title">Frequency (Hz)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="apparent">
+        <div class="title">Total Apparent Power</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="temp">
+        <div class="title">Ambient Temperature (℃)</div>
+        <div class="output">123</div>
+      </div>
+
+      <div class="environment">
+        <div class="title">Environment humility (%)</div>
+        <div class="output">123</div>
+      </div>
+
+    </div>
+
+    <!-- Container Line -->
+    <div class="data-line">
+      <div class="data-header">LINE</div>
+
+        <div class="active-power">
+          <div class="title">Line Active Power (kW))</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="pva">
+          <div class="title">Phase Voltage A (V)</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="pvb">
+          <div class="title">Phase Voltage B (V)</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="pvc">
+          <div class="title">Phase Voltage C (V)</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="pca">
+          <div class="title">Phase Current A (A)</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="pcb">
+          <div class="title">Phase Current B (A)</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="pcc">
+          <div class="title">Phase Current C (A)</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="reactive-power">
+          <div class="title">Reactive Power (kVar)</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="power-factor">
+          <div class="title">Power Factor</div>
+          <div class="output">123</div>
+        </div>
+  
+        <div class="frequency">
+          <div class="title">Frequency (Hz)</div>
+          <div class="output">123</div>
+        </div>
+  
+    </div>
+
+    <!-- Container Add -->
+    <div class="data-add">
+      <div class="data-header">ADD</div>
+    
+    </div>
+    
+   </div>
+   <script src="js/main.js"></script>
+</body>
+</html>

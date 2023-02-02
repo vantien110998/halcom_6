@@ -1,0 +1,390 @@
+html
+{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    /* background:linear-gradient(to right, blue, orange); */
+    background-color: black;
+    display: flex;
+    /* align-items: center; */
+    align-items: flex-start; 
+    justify-content: center; 
+    padding: 0px 0; 
+}
+
+.header
+{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 100%;
+    height: 100%;
+    max-height: 50px;
+    background-color: rgb(143, 170, 220);
+    color: black;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.header-title
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-button
+{
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+}
+
+.data
+{
+    display: flex;
+    border: 2px solid white;
+    width: 98%;
+    height: 86%;
+    margin-left: -20px;
+    margin-top: 65px;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-evenly;
+}
+
+.data-pcs
+{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 25%;
+    height: 100%;
+    background-color: #D0CECE;
+    border: 3px solid black;
+    /* background-color: rgba(208, 208, 206, 0.5); */
+
+}
+
+.data-header
+{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(143, 170, 220);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.data-load
+{
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+    width: 25%;
+    height: 100%;
+    background-color: #D0CECE;
+    border: 3px solid black;
+    /* background-color: rgba(208, 208, 206, 0.5); */
+}
+
+.data-line
+{
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+    width: 25%;
+    height: 100%;
+    background-color: #D0CECE;
+    border: 3px solid black;
+    /* background-color: rgba(208, 208, 206, 0.5); */
+
+}
+
+
+.data-add
+{
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 20px;
+    width: 25%;
+    height: 100%;
+    background-color: #D0CECE;
+    border: 5px solid black;
+    /* background-color: rgba(208, 208, 206, 0.5); */
+}
+
+
+.active-power
+{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    max-height: 50px;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.pva
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 300px; */
+    margin-top: 7px;
+}
+
+
+.pvb
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 300px; */
+    margin-top: 7px
+}
+
+.pvc
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 300px; */
+    margin-top: 7px;        
+}
+
+.pca
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 600px; */
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.pcb
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 600px; */
+    margin-bottom: 7px;
+}
+
+.pcc
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 600px; */
+}
+
+.reactive-power
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 20px; */
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.power-factor
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 20px; */
+    margin-bottom: 7px;
+}
+
+.frequency
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin-left: 20px; */
+}
+
+.dcv
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 7px;
+    /* margin-left: 20px; */
+}
+
+.dcc
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 7px;
+    /* margin-left: 20px; */
+}
+
+.dcp
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 7px;
+}
+
+.temp
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 7px;
+}
+
+.apparent
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 7px;
+}
+
+.environment
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 7px;
+}
+
+.title
+ {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    color: #002060;
+    margin-top: 3px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5px;
+    padding-top: 4px;
+ }
+
+.active-power .title
+ {
+    margin-top: 13px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    width: 250px;
+    color: #002060;
+    font-weight: bold;
+ }
+
+ 
+.output
+ {
+    font-weight: bold;
+    font-size: 15px;
+    width: 80px;
+    height: 100%;
+    color: #C55A11;
+    border: 1px solid black; 
+    padding-top: 5px;
+    margin-right: 40px;
+ }
+
+.active-power .output
+ {
+    font-weight: bold;
+    font-size: 25px;
+    width: 30%;
+    height: 100%;
+    color: #C55A11;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    margin-right: 20px;
+ }
+
+
+
+
+ 
